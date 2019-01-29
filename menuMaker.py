@@ -47,3 +47,9 @@ for line in finisher:
     file.write(temp)
     print "temp file: " + temp
 file.close()
+
+readTemplate = open("templates/template.txt", "r")
+file = open("build/index.html", "w")
+for line in readTemplate:
+    file.write(line)
+file.close
