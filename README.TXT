@@ -67,7 +67,3 @@ pandoc
 p2nv virtual environment
    -BeautifulSoup
    -Python 2.7
-<<<<<<< HEAD
-=======
-   
->>>>>>> 3c76dfc9f174311021dc3cd3cd8066f0a0c5a2f2
