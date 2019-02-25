@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<head>
+  <title> Ask Me About API Documentation </title>
+  <link rel="stylesheet" href="styles/site.css" type="text/css" />
+  <meta name="robots" content="noindex, nofollow">
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script>
+    function changer(userInput) {
+    console.log("changer function activated");
+    userInput=userInput
+    menuSelect = "#"+userInput;
+    console.log("changer: userInput is:" + userInput);
+    console.log("changer: menuSelect is:" + menuSelect);
+    console.log("calling the injectContent function")
+    injectContent();
+    }
+    </script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+  <div id="header">
+    <p id="nameplate"><img id="mug" src="img/askMe.png" alt="" height=24 width=24> Ask Me About API Documentation</p>
+  </div>
+  <div class="floatclear"></div>
+<div id="left-nav" >
+
+        <ul class="menu-ul"><li class="menu-h1" onclick="changer('resources-for-technical-writers-in-general-and-api-writers-in-particular')"><a href="taketwo.html#resources-for-technical-writers-in-general-and-api-writers-in-particular" >Resources for Technical Writers in General and API Writers in Particular</a></li><li class="menu-h2" onclick="changer('web-resources')"><a href="taketwo.html#web-resources" >Web Resources</a></li><li class="menu-h2" onclick="changer('classes-and-certifications')"><a href="taketwo.html#classes-and-certifications" >Classes and Certifications</a></li><li class="menu-h2" onclick="changer('groups')"><a href="taketwo.html#groups" >Groups</a></li><li class="menu-h1" onclick="changer('what-is-api-documentation')"><a href="taketwo.html#what-is-api-documentation" >What is API documentation</a></li><li class="menu-h2" onclick="changer('an-api-is-a-set-of-custom-commands')"><a href="taketwo.html#an-api-is-a-set-of-custom-commands" >An API is a set of custom commands</a></li><li class="menu-h2" onclick="changer('who-uses-api-documentation')"><a href="taketwo.html#who-uses-api-documentation" >Who uses API documentation</a></li><li class="menu-h2" onclick="changer('what-is-included')"><a href="taketwo.html#what-is-included" >What is included?</a></li></ul></div>
+
+      </div>
+
+
+<div id="content">
+  <div id="target">
+<p>Welcome. You can ask me anything about API documentation.</p>
+<br>
+<p>Select a topic from the menu at left to find out more about documenation.</p>
+<br>
+<p>To find out more about how this page is published, take a look at the "about" page, on the menu bar up above.</p>
+
+
+  </div>
+
+<div class="floatclear"></div>
+<div class="floatclear"></div>
+
+
+</div>
+<div id="footer">Copyright Clarence W Cromwell 2019. No reproduction of content without written permission of the author.</div>
+<div class="floatclear"></div>
+
+  <script src="myScript.js"></script>
+</body>
+</html>

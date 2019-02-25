@@ -1,0 +1,23 @@
+___
+Docname: final.html
+Title: "The Big Web Page"
+
+href: "src/mackinaw.md",
+href: "src/test-doc.md"
+
+outdir: build/
+___
+
+
+
+pandoc -f markdown -t html5 -o build/finalFridayVersion.html src/extra.md src/test-doc.md src/mackinaw.md
+
+pandoc -f markdown -t html5 -o build/myFinalPage.html templates/template.txt build/menu.html templates/template2.txt build/finalFridayVersion.html templates/template.txt
+
+
+
+myTemplate
+menu.html
+template2
+<new_content.html>
+template3

@@ -1,0 +1,9 @@
+
+Title: #final name of the page that will show on the tab
+docname: #name the file will be saved as
+
+href: #precedes the name of an html page to process
+href: #each filename needs a line of its markdown
+href: #the html pages are processed in the order listed
+
+outdir: #directory where output will be written

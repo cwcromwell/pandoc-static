@@ -1,0 +1,7 @@
+</div>
+<div class="floatclear"></div>
+
+</body>
+  <script src="myScript.js"></script>
+
+</html>

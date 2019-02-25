@@ -2,14 +2,14 @@
 
 
 
-var menuSelect = "#heading-three";
+var menuSelect = "#heading-one";
 
 function injectContent () {
 
   console.log("injectContent function loaded");
 
 
-var location = "<iframe src='build/testdoc.html" + menuSelect + "'></iframe>";
+var location = "<iframe src='askme.html" + menuSelect + "'></iframe>";
 
 console.log("injectContent: location is: " + location);
 

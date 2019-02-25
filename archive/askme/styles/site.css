@@ -1,0 +1,151 @@
+
+* {
+  margin: 5 auto;
+}
+
+body {
+
+}
+iframe {
+  width: 100%;
+  height: 100%
+  margin:0;
+  padding:0;
+}
+
+iframe:first-child {
+  border:none;
+  height:100%;
+}
+
+#left-nav {
+float:left;
+width: 25%;
+max-width: 250px;
+background-color: #efbd47;
+height:500px;
+border: 1px solid black;
+margin-left: 3px;
+
+
+}
+#left-nav li {
+list-style: none;
+margin-left: 0;
+padding-left: 10px;
+margin-bottom: 0 px;
+}
+
+#content, #target {
+float:left;
+margin-left:10px;
+margin-top:0px;
+margin-bottom: 0px;
+width:600px;
+height: 500px;
+
+
+
+}
+
+.floatclear {
+  clear:both;
+}
+menu, ul {
+  padding: 0;
+}
+
+#footer {
+background-color: white;
+color: #efbd47;
+font-family: sans-serif;
+height: 1.5em;
+width: 75%;
+margin-top: 0px;
+padding: 5px;
+}
+
+.menu-h1{
+  color:black;
+  height:auto;
+  font-family: sans-serif;
+  font-weight: bolder;
+  overflow: inherit;
+  font-size:1.2em;
+  padding-botom: .25em;
+  /*The margin bottom and line height make sure that individal headings have enough space between one another, but not too much space internally when they wrap */
+  margin-bottom: .5em;
+  line-height: .8em;
+
+  /*The margin bottom and line height make sure that individal headings have enough space between one another, but not too much space internally when they wrap */
+  margin-bottom: .5em;
+  line-height: .8em;
+}
+
+.menu-h2 {
+  color: grey;
+  height:auto;
+  margin-left:15px;
+  font-family: sans-serif;
+  font-size:1em;
+  /*The margin bottom and line height make sure that individal headings have enough space between one another, but not too much space internally when they wrap */
+  margin-bottom: .5em;
+  line-height: .8em;
+
+  position: relative;
+  left: 6px;
+}
+
+.menu-h3 {
+  color: silver;
+  font-size: .8em;
+  /*The margin bottom and line height make sure that individal headings have enough space between one another, but not too much space internally when they wrap */
+  margin-bottom: .5em;
+  line-height: .8em;
+
+  position: relative;
+  left: 9px;
+}
+
+#mug {
+  width:auto;
+
+  display: inline;
+
+}
+.floatclear {
+  clear:both;
+}
+
+h1 {
+
+  color: silver;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-bottom: .5em;
+  border-top: 1px solid silver;
+  width: 95%;
+  float:left;
+  margin-right: 10%;
+}
+h2 {
+
+  color: black;
+  font-family: sans-serif;
+
+}
+
+#header, #title {
+  margin:0px;
+  border-width:0px;
+  padding: 0px;
+  margin-bottom: 0px;
+
+}
+
+#title {
+  color: #efbd47;
+  font-size: 3em;
+  float: left;
+  display: inline;
+}

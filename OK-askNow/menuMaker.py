@@ -5,8 +5,17 @@ from BeautifulSoup import BeautifulSoup
 
 
 
+
 doc = sys.argv[1]
 #doc=sys.argv[1]
+
+doc1 = doc.split("/")
+for item in doc1:
+    if ".html" in item:
+        docName = item
+    else:
+        continue
+
 
 soup = BeautifulSoup(open(doc, "r"))
 #print "PRINTING CONTENTS OF DOC:"
@@ -26,15 +35,17 @@ for item in menuCollector:
     #print "anchor is: " + miAnchor
     miClass = "class='menu-" + item.name + "'"
     #print "miClass is: " + miClass
-    menuItem = "<li " + miClass + miAnchor + "> " + item.text + "</li>"
+    menuItem = "<li " + miClass + miAnchor + "><a href=\'" + docName +"#" + item.attrs[0][1] + "\'>" + item.text + "</a></li>"
     #print "full menu item: " + menuItem
+    # <a href="taketwo.html#groups" >
     menuHTML += menuItem
 
 #print "HERE'S THE MENU COLLECTOR"
 #print menuHTML
 
+
 file = open("src/html-src/menu.txt","w")
-file.write(" <div id="left-nav" > <ul class='menu-ul'>")
+file.write(" <div id='left-nav' > <ul class='menu-ul'>")
 for item in menuHTML:
     file.write(item)
 file.write("</ul></div>")

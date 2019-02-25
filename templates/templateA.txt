@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<head>
+  <title> ENTER THE NAME OF YOUR PAGE HERE </title>
+  <link rel="stylesheet" href="styles/site.css" type="text/css" />
+  <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script>
+    function changer(userInput) {
+    console.log("changer function activated");
+    userInput=userInput
+    menuSelect = "#"+userInput;
+    console.log("changer: userInput is:" + userInput);
+    console.log("changer: menuSelect is:" + menuSelect);
+    console.log("calling the injectContent function")
+    injectContent();
+    }
+    </script>
+
+
+</head>
+<body>
+
+<div id="left-nav" >
+</div>
+
+
+<div id="content">
+  <div id="target"> </div>
+
+<div class="floatclear"></div>
+
+</body>
+  <script src="myScript.js"></script>
+
+</html>
+
+</div>
+<div class="floatclear"></div>
+
+</body>
+  <script src="myScript.js"></script>
+
+</html>
