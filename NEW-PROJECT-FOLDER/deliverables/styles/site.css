@@ -22,7 +22,7 @@ iframe:first-child {
 float:left;
 width: 25%;
 max-width: 250px;
-background-color: #efbd47;
+background-color: #ffcb05;
 height:500px;
 border: 1px solid black;
 margin-left: 3px;
@@ -44,7 +44,13 @@ margin-bottom: 0px;
 width:600px;
 height: 500px;
 
+}
 
+#content {
+border-left: 1px solid silver;
+border-right: 1px solid silver;
+padding-right: 20px;
+overflow: scroll;
 
 }
 
@@ -57,16 +63,18 @@ menu, ul {
 
 #footer {
 background-color: white;
-color: #efbd47;
+color: #00274c;
 font-family: sans-serif;
+font-weight: bolder;
 height: 1.5em;
 width: 75%;
 margin-top: 0px;
 padding: 5px;
+float: left;
 }
 
 .menu-h1{
-  color:black;
+  color:00274c;
   height:auto;
   font-family: sans-serif;
   font-weight: bolder;
@@ -108,10 +116,9 @@ padding: 5px;
 }
 
 #mug {
+  height:.8em;
   width:auto;
-
   display: inline;
-
 }
 .floatclear {
   clear:both;
@@ -119,7 +126,7 @@ padding: 5px;
 
 h1 {
 
-  color: silver;
+  color: ffcb05;
   font-family: sans-serif;
   font-weight: bold;
   padding-bottom: .5em;
@@ -144,7 +151,7 @@ h2 {
 }
 
 #title {
-  color: #efbd47;
+  color: #00274c;
   font-size: 3em;
   float: left;
   display: inline;

@@ -1,0 +1,7 @@
+# How to Use This Version
+
+## The build works like this:
+
+* run menumaker.py against all the pages to produce a full menu
+* run splicer.py against individual pages of content, to put each page together with the header, footer, and menu
+* 

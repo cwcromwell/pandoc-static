@@ -34,7 +34,6 @@ list-style: none;
 margin-left: 0;
 padding-left: 10px;
 margin-bottom: 0 px;
-
 }
 
 #content, #target {
@@ -44,7 +43,6 @@ margin-top:0px;
 margin-bottom: 0px;
 width:600px;
 height: 500px;
-overflow: scroll;
 
 }
 
@@ -68,9 +66,8 @@ color: #00274c;
 font-family: sans-serif;
 font-weight: bolder;
 height: 1.5em;
-float: left;
-width:100%;
-margin-top: 0px;
+width: 75%;
+margin-top: 10px;
 padding: 5px;
 }
 
@@ -127,7 +124,7 @@ padding: 5px;
 
 h1 {
 
-  color: #ffcb05;
+  color: ffcb05;
   font-family: sans-serif;
   font-weight: bold;
   padding-bottom: .5em;
@@ -135,7 +132,6 @@ h1 {
   width: 95%;
   float:left;
   margin-right: 10%;
-
 }
 h2 {
 
@@ -144,7 +140,7 @@ h2 {
 
 }
 
-#header, #nameplate {
+#header, #title {
   margin:0px;
   border-width:0px;
   padding: 0px;
@@ -152,13 +148,9 @@ h2 {
 
 }
 
-#nameplate {
+#title {
   color: #00274c;
   font-size: 3em;
   float: left;
   display: inline;
-
-}
-#wrapper {
-  width:100%;
 }

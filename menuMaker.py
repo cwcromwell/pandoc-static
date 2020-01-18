@@ -33,16 +33,16 @@ for item in menuCollector:
 #print "HERE'S THE MENU COLLECTOR"
 #print menuHTML
 
-file = open("src/html-src/menu.txt","w")
+file = open("src/html/menu.txt","w")
 file.write(" <div id="left-nav" > <ul class='menu-ul'>")
 for item in menuHTML:
     file.write(item)
 file.write("</ul></div>")
 file.close()
 
-finisher = open("src/html-src/menu.txt", "r")
+finisher = open("src/html/menu.txt", "r")
 
-file = open("src/html-src/menu.html", "w")
+file = open("src/html/menu.html", "w")
 for line in finisher:
     temp = line.replace("\'", "\"")
     temp = temp.replace("&&&", "\'")

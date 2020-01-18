@@ -5,9 +5,7 @@ from BeautifulSoup import BeautifulSoup
 
 
 
-
 doc = sys.argv[1]
-#doc=sys.argv[1]
 
 doc1 = doc.split("/")
 for item in doc1:
@@ -44,16 +42,16 @@ for item in menuCollector:
 #print menuHTML
 
 
-file = open("src/html-src/menu.txt","w")
-file.write(" <div id='left-nav' > <ul class='menu-ul'>")
+file = open("menu.txt","w")
+file.write(" <div id='left-nav'> <ul class='menu-ul'> ")
 for item in menuHTML:
     file.write(item)
-file.write("</ul></div>")
+file.write("</ul></div>   <div id='content'><div id='target'>")
 file.close()
 
-finisher = open("src/html-src/menu.txt", "r")
+finisher = open("menu.txt", "r")
 
-file = open("src/html-src/menu.html", "w")
+file = open("mymenu.html", "w")
 for line in finisher:
     temp = line.replace("\'", "\"")
     temp = temp.replace("&&&", "\'")
